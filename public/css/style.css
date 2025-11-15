@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+#footer{
+    text-align: center;
+    background-color: #829b14;
+    border: 2px solid #e3e5e6;
+    padding: 20px
+}
+.banner{
+    background-image: url("https://images.pexels.com/photos/908965/pexels-photo-908965.jpeg");
+    background-size: cover;  
+    background-position: center;
+    background-repeat: no-repeat; 
+    min-height: 100vh;
+}
+.conteudo-principal{
+    text-align: center;
+    color: #e3e5e6;
+    
+}
+.generos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    margin: 20px;
+}
