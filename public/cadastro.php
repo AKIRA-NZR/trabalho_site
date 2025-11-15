@@ -1,5 +1,5 @@
 <?php 
-include '../src/templates/header.php';
+include '.../src/templates/header.php';
 ?>
 <h2>Cadastro de Novo Cliente</h2>
 <form action="../src/processo/Dados.php" method="POST">
@@ -9,5 +9,5 @@ include '../src/templates/header.php';
 
 </form>
 <?php 
-include '../src/templates/footer.php';
+include '.../src/templates/footer.php';
 ?>
