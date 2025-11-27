@@ -1,30 +1,55 @@
-body{
+html {
+    overflow-y: scroll;
+}
+
+body {
     display: flex;
     flex-direction: column;
-}
-#footer{
-    text-align: center;
-    background-color: #829b14;
-    border: 2px solid #e3e5e6;
-    padding: 20px
-}
-.banner{
-    background-image: url("https://images.pexels.com/photos/908965/pexels-photo-908965.jpeg");
-    background-size: cover;  
-    background-position: center;
-    background-repeat: no-repeat; 
     min-height: 100vh;
+    background-color: rgb(51, 49, 49);
 }
-.conteudo-principal{
+.container > p{
+    color: aliceblue !important;
+}
+
+.footer {
     text-align: center;
-    color: #e3e5e6;
+    background-color: rgb(51, 49, 49) !important; 
+    border: 2px solid #1c2964;
+    border-radius: 5px;
     
 }
-.generos{
+.banner{
+    background-image: url("https://images.pexels.com/photos/1389429/pexels-photo-1389429.jpeg");
+    background-size: cover;
+    min-height: 80vh; 
+    position: relative;
+}
+
+.conteudo-principal {
+    text-align: center;
+    color: #e3e5e6;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.generos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
     padding: 20px;
     margin: 20px;
+}
+.navbar{
+    background-color: rgb(5, 173, 131) !important;
+}
+.card-efeito{
+    perspective: 1000px;
+    transition: transform 0.1s;
+    z-index: 1;
+}
+.card-efeito,card-body,.card-efeito > img{
+    pointer-events: auto;
+}
+.card-efeito > button{
+    pointer-events: auto;
 }
